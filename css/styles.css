@@ -27,7 +27,7 @@ body {
   width: 1px !important;
   overflow: hidden;
 }
-
+/* утилитные классы */
 .link {
   text-decoration: none;
   color: inherit;
@@ -50,7 +50,7 @@ body {
 address {
   font-style: normal;
 }
-
+/* кнопки */
 .button {
   font-family: inherit;
   font-weight: 500;
@@ -78,6 +78,7 @@ address {
   color: var(--dark-bg-text-color);
 }
 
+/* заголовки */
 .title {
   font-weight: 900;
   font-size: 44px;
@@ -108,7 +109,7 @@ address {
   text-transform: uppercase;
   color: var(--title-color);
 }
-
+/* лого */
 .logo,
 .logo-color {
   font-family: var(--logo-font-family);
@@ -125,6 +126,7 @@ address {
   color: var(--dark-bg-text-color);
 }
 
+/* секция хедер */
 .header,
 .nav-list {
   font-weight: 500;
@@ -154,6 +156,7 @@ address {
   color: var(--main-text-color);
 }
 
+/* темный фон */
 .dark-bg {
   background-color: var(--dark-bg-color);
 }
